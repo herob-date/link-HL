@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HL Design - Mobiliario de Diseño</title>
+  
+  <!-- Tipografías oficiales del Manual de Marca -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      /* Fondo neutro y luminoso del manual */
+      background-color: #E4D1AC;
+      font-family: 'Source Serif 4', Georgia, serif;
+      color: #402E20;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    /* Estructura del Isotipo / Logotipo oficial */
+    .brand-mark {
+      display: inline-block;
+      margin-bottom: 24px;
+      padding: 12px 18px;
+    }
+
+    .letters-row {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      font-family: 'Aoboshi One', Georgia, serif;
+      font-size: 3.4rem;
+      line-height: 0.85;
+      color: #402E20;
+      letter-spacing: 4px;
+    }
+
+    .brand-subtext {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.85rem;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      color: #402E20;
+      font-weight: 600;
+      margin-top: 6px;
+      padding-left: 8px; /* Ajuste óptico por el espaciado entre letras */
+    }
+
+    h1 {
+      font-family: 'Aoboshi One', Georgia, serif;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+      color: #402E20;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    p.tagline {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #6B371D;
+      font-weight: 400;
+      margin-bottom: 30px;
+      padding: 0 15px;
+    }
+
+    .links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #CEBFAB;
+      color: #402E20;
+      text-decoration: none;
+      padding: 15px 22px;
+      border-radius: 4px; /* Estética minimalista, sólida y arquitectónica */
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      box-shadow: 0 4px 10px rgba(64, 46, 32, 0.08);
+      border: 1px solid rgba(64, 46, 32, 0.15);
+      transition: all 0.25s ease;
+    }
+
+    .btn:hover, .btn:active {
+      transform: translateY(-2px);
+      background-color: #402E20;
+      color: #E4D1AC;
+      box-shadow: 0 8px 18px rgba(64, 46, 32, 0.18);
+    }
+
+    /* Botón destacado con Verde Salvia del manual */
+    .btn-salvia {
+      background-color: #ADB698;
+      color: #402E20;
+      border-color: rgba(64, 46, 32, 0.12);
+    }
+
+    .btn-salvia:hover, .btn-salvia:active {
+      background-color: #402E20;
+      color: #ADB698;
+    }
+
+    /* Botón con Terracota del manual */
+    .btn-terracota {
+      background-color: #C9745A;
+      color: #ffffff;
+      border-color: rgba(64, 46, 32, 0.15);
+    }
+
+    .btn-terracota:hover, .btn-terracota:active {
+      background-color: #402E20;
+      color: #ffffff;
+    }
+
+    .footer {
+      margin-top: 36px;
+      font-size: 0.75rem;
+      color: #6B371D;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 400;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Logotipo HL Design con tipografías oficiales -->
+    <div class="brand-mark">
+      <div class="letters-row">HL</div>
+      <div class="brand-subtext">DESIGN</div>
+    </div>
+
+    <h1>HL Design</h1>
+    <p class="tagline">Mobiliario de diseño contemporáneo para interiores y exteriores.</p>
+
+    <div class="links-list">
+      <!-- WhatsApp (con Verde Salvia del manual) -->
+      <a href="https://wa.me/51966327706?text=Hola%20HL%20Design,%20quisiera%20cotizar%20mobiliario" class="btn btn-salvia" target="_blank">
+        WhatsApp Business
+      </a>
+
+      <!-- Ubicación del Taller (con Terracota del manual) -->
+      <a href="https://maps.app.goo.gl/AUVotfUhsAXj9Nef7?g_st=ac" class="btn btn-terracota" target="_blank">
+        Ubicación de nuestro Taller
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hldesign.lima" class="btn" target="_blank">
+        Instagram
+      </a>
+
+      <!-- TikTok -->
+      <a href="https://www.tiktok.com/@hl.desing.lima" class="btn" target="_blank">
+        TikTok
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/share/18aVbAkiax/" class="btn" target="_blank">
+        Facebook
+      </a>
+    </div>
+
+    <div class="footer">
+      Mobiliario a Medida • Lima, Perú
+    </div>
+  </div>
+
+</body>
+</html>
